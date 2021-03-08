@@ -1,0 +1,13 @@
+import "StringViewModel.idl";
+
+namespace bind_1
+{
+
+    runtimeclass StringVecViewModel 
+    {
+        StringVecViewModel();
+        StringViewModel StringViewModel{ get; };
+
+        Windows.Foundation.Collections.IObservableVector<StringViewModel> SVModelVec{ get; };
+    }
+}
